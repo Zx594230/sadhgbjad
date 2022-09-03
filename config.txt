@@ -12,15 +12,32 @@
 # 信息配置
 # 和风天气apikey
 "weather_key": "c1edb8e7333f46fe94e959a1a60059f8",
-# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "十堰市",
-# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
-"birthday1": {"name": "大猪", "birthday": "r2003-09-06"},
-# 生日2
-"birthday2": {"name": "小猪", "birthday": "r2003-08-13"},
-# 在一起的日子，格式同上，暂不不支持农历
-"love_date": "2022-07-09",
-# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
 今天又是元气满满的一天 ૮ ・ﻌ・ა 
 
+下面为您播报{{ city.DATA }}今天的天气  o(〃'▽'〃)o
 
+今天是：{{ date.DATA }} {{week_day.DATA}}
+
+今日天气：{{ weather.DATA }}
+
+当前温度：{{ temperature.DATA }}℃
+
+空气湿度：{{ humidity.DATA }}
+
+今日气温：{{ lowest.DATA }}℃~{{ highest.DATA }}℃
+
+今日空气质量：{{ air_quality.DATA }}
+
+今日风向与风力：{{ wind.DATA }}
+
+今日空气污染指数：{{ air_data.DATA }}
+
+我们已经在一起 {{ love_days.DATA }} 天
+
+距离xx的生日还有{{ birthday_left.DATA }} 天
+
+距离xx的生日还有{{ birthday_left_1.DATA }} 天
+
+{{ words.DATA }}
+                                                                                   --xx
+ ！*★,°*:.☆(￣▽￣)/$:*.°★* 。
